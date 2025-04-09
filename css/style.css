@@ -4,4 +4,32 @@
 
 body {
     margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.027rem;
+}
+
+h2 {
+    font-size: 1.802rem;
+}
+
+h3 {
+    font-size: 1.266rem;
+}
+
+header {
+
 }
