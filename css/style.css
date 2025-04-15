@@ -85,10 +85,23 @@ nav a {
 
 #sweetheart .text p {
     margin-top: 0;
-  }
+}
 
 #sweetheart .text .l-e {
     margin: 0;
     text-transform: uppercase;
-  }
+}
 
+.button {
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* behind the dough */
+#behind-dough .wrapper {
+    background-color: #f8fafc;
+
+}
