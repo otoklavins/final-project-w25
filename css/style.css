@@ -114,10 +114,11 @@ nav a {
 }
 
 #behind-dough h2 {
-    margin-top: 0;
+    margin-top: 10px;
     text-align: center;
 }
 
+/* what people are saying */
 #people-saying .wrapper {
     background-color: #222;
     color: #fff;
@@ -126,8 +127,57 @@ nav a {
 
 #people-saying h2 {
     text-align: center;
+    margin-top: 10px;
 }
 
 #people-saying blockquote {
     margin: 0 0 40px 0;
+}
+
+/* try with */
+#try-with .wrapper {
+    padding-top: 0;
+}
+
+#try-with h2 {
+    text-align: center;
+}
+
+#try-with .ride {
+    background-color: #f8fafc;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#try-with .brownie {
+    background-color: #f8fafc;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#try-with .cookie {
+    background-color: #f8fafc;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#try-with .smore {
+    background-color: #f8fafc;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.flavours img {
+    border-radius: 10px 10px 0 0;
+}
+
+#try-with .flavours {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
 }
