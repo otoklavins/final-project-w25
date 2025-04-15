@@ -79,4 +79,16 @@ nav a {
     border-radius: 7px;
 }
 
+#sweetheart h1 {
+    font-weight: 500;
+}
+
+#sweetheart .text p {
+    margin-top: 0;
+  }
+
+#sweetheart .text .l-e {
+    margin: 0;
+    text-transform: uppercase;
+  }
 
