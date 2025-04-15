@@ -33,7 +33,7 @@ h3 {
     margin: 0 auto;
 }
 
-
+/* header */
 header .wrapper {
     display: flex;
     justify-content: space-between;
@@ -61,10 +61,11 @@ nav a {
     color: #000;
 }
 
+/* product shot grid */
 .product-shot {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto;
     justify-content: center;
     gap: 1rem;
 }
@@ -74,5 +75,8 @@ nav a {
     grid-column: 1 / -1;
 }
 
+.product-shot img {
+    border-radius: 7px;
+}
 
 
