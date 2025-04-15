@@ -62,8 +62,8 @@ nav a {
 }
 
 /* sweethhearts affair */
-/* product shot grid */
 
+/* product shot grid */
 #sweetheart .wrapper {
     padding-bottom: 30px;
 }
@@ -194,9 +194,10 @@ nav a {
     padding-bottom: 40px;
 }
 
+/* footer */
 footer {
     background-color: #000;
-    padding: 20px 10px;
+    padding: 10px 10px;
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -204,12 +205,54 @@ footer {
 
 @media (min-width: 768px) and (max-width: 960px) { 
 
+    .product-shot {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        gap: 1rem;
+    }
 
+    .product-shot img:nth-child(1) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
 
+    .product-shot img:nth-child(2) {
+        grid-column: 2 / -1;
+        grid-row: 1 / 1;
+    }
 
+    .product-shot img:nth-child(3) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+    }
 
+    .product-shot img:nth-child(4) {
+        grid-column: 2 / -1;
+        grid-row: 2 / 2;
+    }
 
+    #behind-dough .dough-text {
+        display: flex;
+        gap: 2rem;
+    }
 
+    #people-saying .quotes {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .quotes blockquote {
+        flex: 1;
+    }
+    
+    #people-saying #try-with .flavours {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
 
 }
 
