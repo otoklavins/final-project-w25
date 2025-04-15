@@ -33,6 +33,7 @@ h3 {
     margin: 0 auto;
 }
 
+
 header .wrapper {
     display: flex;
     justify-content: space-between;
@@ -50,12 +51,28 @@ nav ul {
 }
 
 nav li {
-    margin-left: 2rem;
-    font-size: 2rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 nav a {
     text-decoration: none;
     color: #000;
 }
+
+.product-shot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    gap: 1rem;
+}
+
+.product-shot img:nth-child(1) {
+    max-width: 100%;
+    grid-column: 1 / -1;
+}
+
+
 
