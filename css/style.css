@@ -175,9 +175,25 @@ nav a {
     border-radius: 10px 10px 0 0;
 }
 
+.flavours h3 {
+    font-size: 1.5rem;
+}
+
+.flavours p {
+    font-size: 1.4rem;
+}
+
 #try-with .flavours {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1.5rem;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
 }
