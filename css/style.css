@@ -61,7 +61,13 @@ nav a {
     color: #000;
 }
 
+/* sweethhearts affair */
 /* product shot grid */
+
+#sweetheart .wrapper {
+    padding-bottom: 30px;
+}
+
 .product-shot {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -79,6 +85,7 @@ nav a {
     border-radius: 7px;
 }
 
+/* text */
 #sweetheart h1 {
     font-weight: 500;
 }
@@ -103,5 +110,24 @@ nav a {
 /* behind the dough */
 #behind-dough .wrapper {
     background-color: #f8fafc;
+    max-width: 100%;
+}
 
+#behind-dough h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+#people-saying .wrapper {
+    background-color: #222;
+    color: #fff;
+    max-width: 100%;
+}
+
+#people-saying h2 {
+    text-align: center;
+}
+
+#people-saying blockquote {
+    margin: 0 0 40px 0;
 }
