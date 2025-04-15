@@ -34,18 +34,28 @@ h3 {
 }
 
 header .wrapper {
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
 }
 
-ul {
+header img {
+    max-width: 40%;
+}
+
+nav ul {
     display: flex;
     list-style: none;
 }
 
-ul li {
+nav li {
     margin-left: 2rem;
     font-size: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
 }
 
