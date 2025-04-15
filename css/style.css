@@ -28,7 +28,10 @@ h3 {
     font-size: 1.266rem;
 }
 
-
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 header .wrapper {
 display: flex;
@@ -45,3 +48,4 @@ ul li {
     margin-left: 2rem;
     font-size: 2rem;
 }
+
