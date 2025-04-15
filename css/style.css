@@ -247,7 +247,7 @@ footer {
         flex: 1;
     }
     
-    #people-saying #try-with .flavours {
+    #try-with .flavours {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(1, 1fr);
