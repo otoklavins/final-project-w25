@@ -260,6 +260,10 @@ footer {
         gap: 2rem;
     }
 
+    #sweetheart h1 {
+        margin-top: 0;
+    }
+
     .product-shot {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
