@@ -12,6 +12,7 @@ body {
 .wrapper {
     margin: 0 auto;
     padding: 20px;
+    max-width: 1200px
 }
 
 img {
@@ -28,10 +29,6 @@ h3 {
     font-size: 1.266rem;
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 /* header */
 header .wrapper {
@@ -203,7 +200,7 @@ footer {
     font-weight: 400;
 }
 
-@media (min-width: 960px) and (max-width: 960px) { 
+@media (min-width: 768px) and (max-width: 960px) { 
 
     .product-shot {
         display: grid;
@@ -294,11 +291,15 @@ footer {
     #behind-dough .dough-text {
         display: flex;
         gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     #people-saying .quotes {
         display: flex;
         gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
     }
     
     #people-saying .quotes blockquote {
